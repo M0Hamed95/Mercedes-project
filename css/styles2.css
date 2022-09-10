@@ -1,0 +1,328 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+/* ------------------- */
+
+/* container */
+#container{
+    background-color: rgb(12, 12, 12);
+    width: 1120px;
+    height: auto;
+    margin: auto;
+     border: 5px solid  rgba(82, 82, 82, 0.425);   
+}
+
+/* ------------------- */
+
+/* header */
+
+#header {
+    
+    background-repeat: no-repeat;
+   background-size: 917px 130px;
+    width: 1120px;
+    height: 130px;
+    background-color: rgb(0, 0, 0);  
+}
+.social{
+    
+    float: right;
+    margin-top: 20px;
+}
+.social img{
+    height: 37px;
+    width: 37px;
+    margin-right: 9px;
+    opacity: .9;
+}
+.social img:hover{
+    opacity: .7;
+    height: 42px;
+    width: 42px;
+     margin-right: 9px;
+}
+
+/* ------------------- */
+
+/* navbar */
+
+#navbar{
+    width: 1120px;
+    height: 53px;
+    background-color: rgb(0, 0, 0);
+    border-top: 3px rgba(82, 82, 82, 0.425) solid;
+    border-bottom: 3px rgba(82, 82, 82, 0.425) solid;
+    
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+   letter-spacing: 5px;
+}
+
+#navbar li {
+  float: left;
+  font-size: 23px;
+  font-family: Garamond, serif;
+  opacity: .9;
+  margin-right: 20px;
+  margin-left: 10px;
+  
+}
+
+#navbar li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar li a:hover {
+  background-color: rgba(0, 174, 255, 0.527);
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+ 
+
+/*.welcome{
+  text-decoration: underline gray;
+  text-underline-offset: 9px;
+  text-underline-position: under;
+}
+*/
+
+/* ------------------- */
+/* border bottom  w a3mil clear fix  conainer 1170 margin auto */
+/* main */
+
+.about{
+  margin-left: 40px; 
+  font-size: 35px;
+  padding-bottom: 10px;
+  letter-spacing: 10px;
+  font-variant: small-caps;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  
+}
+.about p::first-letter {
+  font-size: 150%;
+  color: #ffffff;
+}
+.hrtop{
+  width: 1087px;
+      margin-left:20px; 
+  margin-top:10px;
+  margin-bottom:30px;
+     
+}
+
+
+.firstp{
+  margin-left: 40px; 
+  font-size: 120%;
+  color: #ffffff;
+  width: 1050px;
+  text-align: justify;
+  font-style: oblique;
+  
+}
+
+
+.mainimg{ 
+    margin-top: 100px;
+margin-left: 20px;
+padding-left: 20px;
+margin-bottom: 100px;
+
+}
+.img1{
+    
+ border:2px inset rgb(255, 255, 255);
+  width: 450px;
+  height: 300px;
+  padding: 2px;
+  
+}
+.img2{
+    width: 450px;
+  height: 300px;
+margin-left: 20px;
+  border:2px inset rgb(255, 255, 255);
+    
+  padding: 2px;
+}
+.img3{
+    width: 450px;
+  height: 300px;
+margin-left: 20px;
+ border:2px inset rgb(255, 255, 255);
+  padding: 2px;
+}
+.img4{
+    width: 450px;
+  height: 300px;
+margin-left: 20px;
+ border:2px inset rgb(255, 255, 255);
+  padding: 2px;
+}
+.img1:hover{
+      border:3px inset rgb(255, 255, 255);
+      box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.26);
+     
+}
+.img2:hover{
+  
+       border:3px inset rgb(255, 255, 255);
+      box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.26);
+
+      
+}
+.img3:hover{
+       border:3px inset rgb(255, 255, 255);
+      box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.26);
+     
+}
+.img4:hover{
+       border:3px inset rgb(255, 255, 255);
+      box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.26);
+     
+}
+td {
+  text-align: center;
+  padding: 15px;
+}
+
+.secondp{
+  margin-left: 40px; 
+  font-size: 120%;
+  color: #ffffff;
+  width: 1050px;
+  text-align: justify;
+  font-style: oblique;
+}
+.hrbot{
+ width: 1087px;
+    margin-top: 60px;
+    margin-left: 13px;
+    margin-bottom: 50px;
+    
+}
+
+/* ---conainer 1170 margin auto---------------- */
+
+
+.wolf{
+    text-align: center;
+   
+text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+input {
+    font-size: 20px;
+    
+}
+input.agree{
+    width: 20px;
+    height: 20px;
+
+}
+
+textarea{
+    font-size: 20px;
+}
+
+input[type=text],input[type=email] {
+    width: 243px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 5px;
+     font-size: 18px;
+     letter-spacing: 4px;   
+     
+}
+input[type=email]{
+    margin-left: 50px;
+}
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover{
+    opacity: .8;
+}
+a{
+    text-decoration: none;
+}
+
+input[type=submit]{
+    font-size: 18px;
+    background-color: #ffffff;
+   border: none;
+  padding: 10px 25px;
+  text-align: center;
+  
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+color: rgb(0, 0, 0);
+letter-spacing: 8px;
+  
+}
+input[type=submit]:hover{
+    opacity: .8;
+}
+
+.hrabout{
+   width: 850px;
+    margin-top: 30px;
+    margin-left: 125px;
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+#footer{
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+
+/* for thankyou.html */
+
+.thankyou{
+  margin-top: 200PX;
+   color: white;
+  text-align: center;
+  letter-spacing: 11px;
+  margin-bottom: 100px;
+}
+
+/* Add Another Feedback */
+
+.buttom{
+    font-size: 18px;
+    background-color: #ffffff;
+   border: none;
+  padding: 10px 25px;
+  text-align: center;
+  margin-left: 30%;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+color: rgb(0, 0, 0);
+letter-spacing: 8px;
+  
+}
+.buttom:hover{
+    opacity: .8;
+}
+
+

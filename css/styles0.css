@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     
+     background-repeat: no-repeat;
+     background-size: auto;
+     background-position:top ;
+    background-color: rgb(0, 0, 0);
+}
+
+/* ----------------- */
+/* CONTAINER */
+
+#container{
+    font-size: 16px;
+      width: 1348px;
+    height: auto;
+    margin: auto;;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(102, 102, 102); 
+}
+
+/* ----------------- */
+/* HEAD */
+
+.head{
+    text-align: center;
+}
+
+.headimg{
+    width: 500px;
+    
+}
+
+/* ----------------- */
+/* PIMG */
+
+.pimg1 {
+    background-image: url(images/headimg.jpg) ;
+    min-height: 100%;
+    
+}
+.pimg1{
+    text-align: center;
+    position: relative;
+    opacity: 0.7;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;}
+
+  
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+
+/* ----------------- */
+/* WHITEBOX */
+
+.whitebox{
+    background-color: rgb(244, 244, 244);
+    color: rgb(102, 102, 102);
+    text-align: center;
+    padding: 50px 1px;
+    margin-top: 350px;
+    letter-spacing: 5px;
+    width: 1348px;
+    
+}
+.social img{
+    height: 70px;
+    width: 70px;
+    margin-right: 9px;
+    opacity: .9;
+    
+}
+.social img:hover{
+    opacity: .5;
+     height: 70px;
+    width: 70px;
+     margin-right: 9px;
+}
+
+.hrabout{
+
+width: 650px;
+    margin-top: 16px;
+    margin-left: 360px;
+    margin-bottom: 15px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 243px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 5px;
+     font-size: 18px;
+     letter-spacing: 4px;   
+     
+}
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover{
+    opacity: .8;
+}
+input[type=email]{
+    margin-left: 90px;
+}
+input[type=submit]{
+    font-size: 25px;
+    background-color: #ffffff;
+   border: none;
+  padding: 10px 40px;
+  text-align: center;
+  margin: 0px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+color: rgb(0, 0, 0);
+letter-spacing: 8px;
+  
+}
+input[type=submit]:hover{
+    opacity: .8;
+}
+
+/* ----------------- */
+/* FOOTER */
+
+#footer{
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+

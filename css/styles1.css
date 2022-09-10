@@ -1,0 +1,258 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+/* ------------------- */
+
+/* container */
+#container{
+    background-color: rgb(12, 12, 12);
+    width: 1120px;
+    height: auto;
+    margin: auto;
+     
+    
+     
+    
+}
+/* ------------------- */
+
+/* header */
+#header {
+    
+    background-repeat: no-repeat;
+   background-size: 917px 130px;
+    width: 1120px;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+.social a{
+     text-decoration: none;
+    float: right;
+    margin-top: 20px;
+}
+.social img{
+    height: 37px;
+    width: 37px;
+    margin-right: 9px;
+    opacity: .9;
+    
+}
+.social img:hover{
+    opacity: .7;
+    height: 42px;
+    width: 42px;
+     margin-right: 9px;
+}
+
+/* ------------------- */
+
+/* navbar */
+#navbar{
+    width: 1120px;
+    height: 53px;
+    background-color: rgb(0, 0, 0);
+    border-top: 3px rgba(82, 82, 82, 0.425) solid;
+    border-bottom: 3px rgba(82, 82, 82, 0.425) solid;
+    
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  letter-spacing: 5px;
+  
+  
+}
+
+#navbar li {
+  float: left;
+  font-size: 23px;
+  font-family: Garamond, serif;
+  opacity: .9;
+  margin-right: 20px;
+  margin-left: 10px;
+  
+}
+
+#navbar li a {
+ display: block;  /*  its already block  momken a3mil inline-block */
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar li a:hover {
+  background-color: rgba(0, 174, 255, 0.527);
+  padding: 14px 16px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+ 
+
+/*.welcome{
+  text-decoration: underline gray;
+  text-underline-offset: 9px;
+  text-underline-position: under;
+}
+*/
+
+/* ------------------- */
+
+/* main */
+
+/* News */
+.sidenews{
+  margin-top: 9px;
+ margin-right: 285px;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  float: right;
+  letter-spacing: 2px;
+ 
+}
+.sidenews p::first-letter {
+  font-size: 150%;
+  color: #ffffff;
+  
+}
+
+.sidep{
+  margin-right: 46px; 
+  font-size: 120%;
+  color: #ffffff;
+  width: 324px;
+  text-align:left;
+  float: right;
+  font-style: oblique;
+
+}
+
+.hrside{
+ width: 365px;
+    margin-right: 20px;
+    margin-top: -34px;
+    margin-bottom: 5px;
+    float: right;
+
+}
+
+h3{
+  color: cyan;
+  text-shadow: 2px 2px 5px rgb(0, 255, 255);
+   font-variant: small-caps;
+}
+h4{
+color: #ffffff;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+   font-variant: small-caps;
+}
+
+/* welcome */
+.welcome{
+  margin-left: 40px; 
+  font-size: 35px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
+  
+}
+.welcome p::first-letter {
+  font-size: 150%;
+  color: #ffffff;
+}
+
+.hrtop{
+  width: 650px;
+  margin-left:20px; 
+  margin-top:10px;
+  margin-bottom:30px;
+  
+}
+
+
+.firstp{
+  margin-left: 40px; 
+  font-size: 120%;
+  color: #ffffff;
+  width: 600px;
+  text-align: justify;
+  font-style: oblique;
+}
+.firstp ul{
+  margin-left: 10%; 
+  margin-top: 20px;
+  margin-bottom: 40px;
+ 
+  
+}
+
+.mainimg{ 
+margin-left: 20px;
+padding-left: 20px;
+margin-bottom: 40px;
+
+}
+.img1{
+ border:2px inset rgb(255, 255, 255);
+  width: 300px;
+  height: auto;
+  padding: 2px;
+  
+}
+.img2{
+  width: 300px;
+  height: 170px;
+margin-left: 20px;
+border:2px inset rgb(255, 255, 255);
+  padding: 2px;
+}
+.img1:hover{
+      border:3px inset rgb(255, 255, 255);
+      box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.26);
+     
+}
+.img2:hover{
+  
+       border:3px inset rgb(255, 255, 255);
+      box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.26);
+
+}
+
+.secondp{
+  margin-left: 40px; 
+  font-size: 120%;
+  color: #ffffff;
+  width: 600px;
+  text-align: justify;
+  font-style: oblique;
+}
+
+
+.hrbot{
+ width: 1087px;
+    margin-top: 60px;
+    margin-left: 13px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+/* ------------------- */
+
+/* footer */
+#footer{
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
